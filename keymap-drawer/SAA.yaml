@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - SEMI
-  - {t: SQT, h: Mouse}
+  - MINUS
+  - {t: DEL, h: Mouse}
   - LSHFT
   - Z
   - X
@@ -40,23 +40,23 @@ layers:
   - {t: ESC, h: LCTL}
   - LGUI
   - LALT
-  - {t: SPACE, h: Num}
+  - {t: SPACE, h: Scr}
   - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
+  - {t: ENTER, h: Fnc}
+  - {t: ENTER, h: Num}
   - LEFT
   - DOWN
   - RIGHT
-  - LEFT
-  - UP
-  - SPACE
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - PAGE UP
   - DOWN
+  - '&mkp MB2'
+  - LEFT
+  - UP ARROW
+  - PAGE DOWN
+  - DOWN ARROW
   - RIGHT
-  - HOME
-  - PG UP
-  - ENTER
-  - PG DN
-  - END
   - A
   - B
   Fnc:
@@ -92,10 +92,10 @@ layers:
   - {t: ▽, type: trans}
   - F11
   - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&macro_01'
+  - '&macro_02'
+  - '&macro_03'
+  - '&macro_04'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
@@ -142,26 +142,26 @@ layers:
   - LBKT
   - RBKT
   - BSLH
-  - {t: ▽, type: trans}
+  - LEFT BRACE
   - {t: SPACE, h: LSHFT}
   - BACKSPACE
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0x89'
   - FSLH
   - SEMI
   - SQT
+  - Sft+0x89
+  - Sft+0x87
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
+  - ENTER
+  - ENTER
   - ENTER
   - ENTER
   - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
-  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -276,7 +276,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
